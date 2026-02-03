@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Demo / evidence artifacts
+*.ecv
+*.zip
+reveal_*.json
+demo*.ecv
+
+# Generated output
+publish_pack/
+SHA256SUMS_PROOF.txt
+
+# OS
+.DS_Store
+Thumbs.db

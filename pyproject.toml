@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "echocert-vault"
+version = "0.2.4"
+description = "Portable, tamper-evident evidence bundles for AI-assisted decisions."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0.0"]
+
+[project.scripts]
+echocert-vault = "echocert_vault.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["echocert_vault*"]
