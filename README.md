@@ -17,3 +17,12 @@ EchoCert Vault is dual-licensed:
 
 See: `COMMERCIAL_LICENSE.md` and `PRICING.md`.
 
+
+## Licensing
+
+EchoCert Vault is dual-licensed:
+
+- **AGPL-3.0** (open source): free to use under AGPL terms.
+- **Commercial license**: required for closed-source/proprietary use, internal enterprise deployments where AGPL obligations are not acceptable, or embedding into commercial products.
+
+See: `COMMERCIAL_LICENSE.md` and `PRICING.md`.
